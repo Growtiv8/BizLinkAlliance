@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Authenia&display=swap');
+
+:root {
+  --background: 0 0% 0%; /* Black */
+  --foreground: 0 0% 100%; /* White */
+  --card: 0 0% 0%; /* Black */
+  --card-foreground: 0 0% 100%; /* White */
+  --popover: 0 0% 0%; /* Black */
+  --popover-foreground: 0 0% 100%; /* White */
+  --primary: 46 70% 57%; /* Yellow Gold */
+  --primary-foreground: 0 0% 0%; /* Black */
+  --secondary: 210 40% 98%; /* White (default shadcn secondary, adjust if needed) */
+  --secondary-foreground: 222.2 84% 4.9%; /* Black (default shadcn secondary-foreground, adjust if needed) */
+  --muted: 210 40% 98%; /* White (default shadcn muted, adjust if needed) */
+  --muted-foreground: 215 20.2% 65.1%; /* Light Grey */
+  --accent: 210 40% 98%; /* White (default shadcn accent, adjust if needed) */
+  --accent-foreground: 222.2 84% 4.9%; /* Black (default shadcn accent-foreground, adjust if needed) */
+  --destructive: 0 62.8% 30.6%; /* Red (default shadcn destructive) */
+  --destructive-foreground: 210 40% 98%; /* White (default shadcn destructive-foreground) */
+  --border: 215 20.2% 65.1%; /* Light Grey */
+  --input: 215 20.2% 65.1%; /* Light Grey */
+  --ring: 46 70% 57%; /* Yellow Gold */
+  --radius: 0.75rem;
+}
+
+* {
+  border-color: hsl(var(--border));
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  background: #000000; /* Solid black background */
+  min-height: 100vh;
+  color: hsl(var(--foreground));
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'EB Garamond', serif;
+}
+
+.font-heading {
+  font-family: 'EB Garamond', serif;
+}
+
+.font-subhead {
+  font-family: 'Titillium Web', sans-serif;
+  text-transform: uppercase;
+}
+
+.font-body {
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.font-accent-script {
+  font-family: 'Authenia', cursive;
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #e1c340, #bcbfc4); /* Yellow Gold to Light Grey */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.sacramento-gradient {
+  background: linear-gradient(135deg, #e1c340 0%, #bcbfc4 100%); /* Yellow Gold to Light Grey */
+}
+
+.business-card-hover {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.business-card-hover:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+}
+
+.floating-animation {
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite alternate;
+}
+
+@keyframes pulse-glow {
+  from { box-shadow: 0 0 20px rgba(225, 195, 64, 0.5); } /* Yellow Gold glow */
+  to { box-shadow: 0 0 40px rgba(225, 195, 64, 0.8); }
+}
+
+/* Custom Calendar Styling */
+.day-with-event:not([aria-selected]) {
+  position: relative;
+  background-color: hsl(var(--primary) / 0.1);
+}
+.day-with-event:not([aria-selected])::after {
+  content: '';
+  position: absolute;
+  bottom: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: hsl(var(--primary));
+}
+
+.day-with-event[aria-selected] {
+  background-color: hsl(var(--primary)) !important;
+  color: hsl(var(--primary-foreground)) !important;
+}
+.day-with-event[aria-selected]::after {
+    background-color: hsl(var(--primary-foreground));
+}
