@@ -1,0 +1,23 @@
+[
+  {
+    "id": "sample-1",
+    "title": "BizLink Morning Mixer",
+    "description": "Coffee, connections, and conversations.",
+    "date": "2025-10-01",
+    "time": "08:30",
+    "location": "Downtown Cafe",
+    "authorName": "BizLink Alliance",
+    "type": "member",
+    "url": "https://www.facebook.com/events/123456789012345/"
+  },
+  {
+    "id": "sample-2",
+    "title": "Founders Roundtable",
+    "description": "Peer-to-peer problem solving for founders.",
+    "date": "2025-10-05",
+    "time": "17:30",
+    "location": "Innovation Hub",
+    "authorName": "BizLink Alliance",
+    "type": "admin"
+  }
+]

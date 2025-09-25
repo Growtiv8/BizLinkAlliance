@@ -1,0 +1,15 @@
+## Pages
+- [Admin Dashboard - BizLink Alliance](/admin): BizLink Alliance admin dashboard for board members to manage the network.
+- [Coming Soon - BizLink Alliance](/comingsoon): BizLink Alliance is launching soon! Sign up to be the first to know when Sacramento
+- [Community Board - BizLink Alliance](/community): Join the conversation on the BizLink Alliance community message board. Connect with other Sacramento professionals.
+- [Contact - BizLink Alliance](/contact): No description available
+- [Dashboard - BizLink Alliance](/dashboard): Manage your BizLink Alliance profile, view connections, and track your networking activity.
+- [Entrepreneurship Blog - BizLink Alliance](/blog): Insights and articles on entrepreneurship, networking, and business growth for the Sacramento community from BizLink Alliance.
+- [Events - BizLink Alliance](/events): No description available
+- [Free Registration - BizLink Alliance](/freeregistration): No description available
+- [Join the Waitlist - BizLink Alliance](/waitlist): No description available
+- [Login - BizLink Alliance](/login): Login to your BizLink Alliance account to access your dashboard, connect with members, and manage your business profile.
+- [Membership - BizLink Alliance](/membership): Explore BizLink Alliance membership options: Free and Premium tiers for Sacramento businesses. Upgrade for enhanced networking features.
+- [Messages - BizLink Alliance](/messages): Private messaging system for BizLink Alliance members. Connect and communicate directly with other professionals.
+- [Register - BizLink Alliance](/register): Join BizLink Alliance and register your business to connect with Sacramento
+- [Thank You - BizLink Alliance](/thankyou): No description available

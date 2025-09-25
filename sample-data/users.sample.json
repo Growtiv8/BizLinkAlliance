@@ -1,0 +1,28 @@
+[
+  {
+    "first_name": "Ava",
+    "last_name": "Lopez",
+    "email": "ava.lopez@example.com",
+    "phone": "916-555-1001",
+    "business_name": "Ava Creative",
+    "role_title": "Founder",
+    "chapter": "Roseville",
+    "city": "Roseville",
+    "website": "https://avalab.example",
+    "membership_type": "premium",
+    "ref_source": "Friend/Referral"
+  },
+  {
+    "first_name": "Noah",
+    "last_name": "Kim",
+    "email": "noah.kim@example.com",
+    "phone": "916-555-1002",
+    "business_name": "Kim Consulting",
+    "role_title": "Owner",
+    "chapter": "Citrus Heights",
+    "city": "Citrus Heights",
+    "website": "https://kimco.example",
+    "membership_type": "free",
+    "ref_source": "Event"
+  }
+]
